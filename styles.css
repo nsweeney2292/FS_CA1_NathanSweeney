@@ -1,0 +1,326 @@
+.navbar {
+    background-color: 	#009E60;
+    color: #FBFBFB;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    color: #FBFBFB;
+    text-decoration: none;
+    margin: 0px 20px 0px 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.navbar a:hover {
+    color: #004D44;
+}
+
+.navlogo img {
+    margin-left:20px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.login {
+    margin-left: auto;
+    display: flex;
+}
+
+.login-button {
+    margin-left: auto;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: #004D44;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #FBFBFB;
+    color: #FBFBFB;
+}
+
+/* to adjust */
+
+.hero {
+    background-image: url('https://images.pexels.com/photos/2382681/pexels-photo-2382681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 300px 20px; 
+    position: relative;
+}
+
+.hero h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #FBFBFB; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+.search-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #009E60;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0; 
+    cursor: pointer;
+}
+
+.searchbar {
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+    font-size: 1em;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    color: #333;
+}
+
+/* Portal Section */
+.portal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 20px;
+    background-color: #fff; 
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.portal .content {
+    flex: 1; 
+    max-width: 600px;
+    padding-right: 20px;
+}
+
+.portal h3 {
+    color: #009E60;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.portal h1 {
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.portal p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.portal .benefits {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.portal .benefits li {
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.portal .icon {
+    font-size: 1.5em;
+    color: #009E60;
+    margin-right: 10px;
+}
+
+.portal .buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.portal .learn-more {
+    padding: 10px 20px;
+    border: 2px solid #009E60;
+    background-color: #fff;
+    color: #009E60;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.portal .learn-more:hover {
+    background-color: #009E60;
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.portal .sign-up {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #009E60;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.portal .sign-up:hover {
+    background-color: #004D44;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Image Portal */
+.portal .image-portal {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px; 
+}
+
+.portal .image-portal img {
+    width: 100%; 
+    max-width: 1200px;
+    max-height: 1200px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Services Section */
+
+.services {
+    margin: 80px 20px
+}
+
+.services h2 {
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.services p {
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.servicesSearch {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.servicesSearch li {
+    list-style: none;
+    text-align: center;
+    width: 150px;
+    margin: 15px;
+    justify-content: center;
+}
+
+.servicesSearch img {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.servicesSearch a {
+    color: #004080;
+    font-weight: bold;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.servicesSearch a:hover {
+    color: #009E60;
+}
+
+/* Footer */
+footer {
+    background-color: #009E60;
+    color: #fff;
+    padding: 20px 0px 20px 0px;
+    flex-direction: column;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 20px 20px;
+}
+
+.footer-section h3 {
+    color: #004D44;
+    margin-bottom: 15px;
+}
+
+.footer-section p,
+.footer-section ul {
+    font-size: 0.9em;
+}
+
+.footer-section ul {
+    list-style-type: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    color: #004080;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8em;
+    margin-top: auto;
+}
+
