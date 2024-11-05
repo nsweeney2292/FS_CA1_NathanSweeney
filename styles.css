@@ -63,6 +63,7 @@
     text-align: center;
     padding: 300px 20px; 
     position: relative;
+    min-height: 100vh;
 }
 
 .hero h1 {
@@ -419,9 +420,7 @@ span.psw {
     padding: 20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     flex-direction: column;
-    margin: 80px 20px;
-    gap: 20px;
-    padding: 20px;
+    margin: 40px 20px;
 }
 
 .servicesPage li {
@@ -432,7 +431,7 @@ span.psw {
     margin: 15px;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
     width: 100%;
     max-width: 600px;
 }
@@ -449,7 +448,7 @@ span.psw {
     display: flex;
     flex-direction: column;
     max-width: 600px;
-    gap: 10px;
+    gap: 20px;
 }
 
 .search-button-na {
@@ -466,4 +465,33 @@ span.psw {
     padding-top: 80px;
 }
 
+.pmargin {
+    padding-bottom: 40px;
+}
 
+.search-button:hover {
+    opacity: .8;
+}
+
+
+/*about section*/
+
+.aboutPage {
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 20px;
+    background-color: #fff; 
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+
+.aboutPage h3 {
+    color: #009E60;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.aboutPage p {
+}
