@@ -456,8 +456,8 @@ span.psw {
     font-size: 1em;
     background-color:#666;
     color: #fff;
-    border: none;
-    border-radius: 0 5px 5px 0; 
+    border: none;;;
+    border-radius: 0 5px 5px 0;
     cursor: pointer;
 }
 
@@ -485,13 +485,166 @@ span.psw {
     max-width: 1200px;
 }
 
+.aboutPage p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
 
 .aboutPage h3 {
+    color: #009E60;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* About Socials */
+
+.aboutSocial {
+    display: flex;
+    gap: 10px;
+}
+
+.social {
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 5px 0;
+    cursor: pointer;
+    width: 15%;
+    border-radius: 4px;
+    font-size: 16px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 10px; 
+}
+
+.twitter {
+    background-color: #1DA1F2; 
+}
+
+.instagram {
+    background-color: #833AB4; 
+}
+
+.social:hover {
+    opacity: 0.8ß;
+}
+
+
+
+/*contact page*/
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.contactInfo p {
+    font-size: 1em;
+}
+
+.map {
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    margin: 30px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.contactInfo h2 {
     color: #009E60;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.2em;
     margin-bottom: 10px;
 }
 
-.aboutPage p {
+.contactInfo p {
+    font: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.contactInfo div {
+    text-align: center;
+}
+
+/* Dashboard*/
+
+
+.dashboard {
+    padding: 80px;
+}
+
+.dashboard h2 {
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.dashSection {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.dashCard{
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    padding: 40px;
+    width: 600px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.dashCard h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.dashCard p {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.dashCard button {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.dashCard button:hover {
+    opacity: 0.8;
+}
+
